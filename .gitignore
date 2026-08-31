@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+venv/
+env/
+.env
+
+# Node
+node_modules/
+build/
+.DS_Store
+
+# ML model
+badge_model.pkl
+
+# Logs
+*.log
+.idea/
+.vscode/
