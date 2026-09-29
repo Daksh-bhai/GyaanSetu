@@ -49,6 +49,33 @@ export function LearnerDashboard() {
           </div>
         </div>
 
+        {/* Credit Wallet */}
+        <div className="bg-gradient-to-r from-emerald-500/10 via-slate-900 to-blue-500/10 border border-emerald-500/20 rounded-2xl p-6 mb-8">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div>
+              <p className="text-xs uppercase tracking-[0.2em] text-emerald-300/80">Credit wallet</p>
+              <h2 className="text-2xl font-black text-white mt-2">💳 {credits} credits available</h2>
+            </div>
+            <Link to="/sessions"
+              className="inline-flex items-center justify-center px-4 py-2 bg-emerald-500 hover:bg-emerald-400 text-sm font-bold text-white rounded-xl transition-all">
+              View session usage →
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
+            {[
+              { label: "Available", value: `${credits} cr`, color: "text-emerald-400" },
+              { label: "Learning budget", value: `${Math.max(10, credits + 5)} cr`, color: "text-blue-400" },
+              { label: "Recent spend", value: `${Math.max(0, credits - 3)} cr`, color: "text-purple-400" },
+            ].map(item => (
+              <div key={item.label} className="bg-slate-950/70 border border-slate-800 rounded-xl p-4">
+                <p className="text-slate-400 text-xs uppercase tracking-wide">{item.label}</p>
+                <p className={`text-2xl font-black mt-2 ${item.color}`}>{item.value}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* Top Row — 3 cards */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
 
