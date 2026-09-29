@@ -236,4 +236,4 @@ This project was built for academic purposes as a final year submission. Add a l
 ---
 
 <p align="center">Made with 💚 by the GyaanSetu Team</p>
-Thank You 
+Thank You very much
