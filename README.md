@@ -4,6 +4,8 @@
 
 > 🎓 Teach a skill → Earn credits → Spend credits to learn a skill from someone else.
 
+This repository contains the complete source code for the GyaanSetu platform, including the frontend, backend, ML models, and project documentation for demo and academic use.
+
 ---
 
 ## 📖 Table of Contents
@@ -234,3 +236,4 @@ This project was built for academic purposes as a final year submission. Add a l
 ---
 
 <p align="center">Made with 💚 by the GyaanSetu Team</p>
+Thank You 
