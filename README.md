@@ -211,14 +211,21 @@ Admin routes require: `X-Admin-Key: <admin_key>`
 
 ## 👥 Team & Contributions
 
-| Member | Responsibilities |
-|---|---|
-| **Vandana** | Core backend (auth, sessions, credits/escrow, skill verification), Smart Match algorithm, Random Forest badge prediction, cosine similarity recommendations |
-| **Daksh** | Real-time chat (Socket.IO), video calling (WebRTC), reports system, admin panel |
-| **Ansh** | Fraud detection, shared work on chat/video |
-| **Depu** | AI learning module, shared frontend/deployment work |
+GyaanSetu was developed collaboratively as a team project, with each member contributing to different technical components of the platform.
+
+| Member            | Role / Contributions                                                                                                                                                                                                                                                               |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Vandana Yadav** | **Team Lead & Backend/ML Contributor** — Core backend development including authentication, session management, credits/escrow, and skill verification; developed the Smart Match algorithm; worked on Random Forest badge prediction and cosine-similarity based recommendations. |
+| **Daksh**         | **Backend & Real-Time Systems Contributor** — Developed real-time chat using Socket.IO, WebRTC video calling, reporting system, and admin panel; contributed to shared frontend and integration work.                                                                              |
+| **Ansh**          | **AI/ML & Real-Time Systems Contributor** — Developed the rule-based fraud detection component and contributed to chat/video functionality.                                                                                                                                        |
+| **Depu**          | **AI Learning & Frontend Contributor** — Developed the learning module and contributed to frontend and deployment-related work.                                                                                                                                                    |
+
+### Team Collaboration
+
+The project was developed collaboratively, with team members working on different modules and integrating their components into the final GyaanSetu platform.
 
 ---
+
 
 ## 🗺️ Roadmap / Status
 
